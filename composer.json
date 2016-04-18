@@ -1,0 +1,18 @@
+{
+  "name": "inkl/priceapicom",
+  "description": "priceapi.com service",
+  "license": "MIT",
+  "authors": [{
+    "name": "Marcus",
+    "email": ""
+  }],
+  "require": {
+    "php": ">= 5.5",
+    "curl/curl": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inkl\\PriceApiCom\\": "src/"
+    }
+  }
+}
