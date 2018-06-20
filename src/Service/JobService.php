@@ -2,19 +2,19 @@
 
 namespace Inkl\PriceApiCom\Service;
 
+use Inkl\PriceApiCom\Client\ClientInterface;
 use Inkl\PriceApiCom\Client\RestClient;
-
 class JobService
 {
 
-	/** @var RestClient */
+	/** @var ClientInterface */
 	private $client;
 
 	/**
 	 * ProductService constructor.
-	 * @param RestClient $client
+	 * @param ClientInterface $client
 	 */
-	public function __construct(RestClient $client)
+	public function __construct(ClientInterface $client)
 	{
 		$this->client = $client;
 	}
