@@ -43,7 +43,7 @@ class ProductService
 			'source' => $source,
 			'currentness' => $currentness,
 			'completeness' => $completeness
-		], true));
+		]), true);
 	}
 
 
