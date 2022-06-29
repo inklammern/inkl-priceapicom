@@ -4,7 +4,5 @@ namespace Inkl\PriceApiCom\Client;
 
 interface ClientInterface
 {
-	
-	public function call($method, $params = []);
-
+    public function call($method, $params = []);
 }
